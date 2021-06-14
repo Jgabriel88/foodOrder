@@ -3,8 +3,7 @@ import classes from './MealItemForm.module.css';
 const MealItemForm = (props) => {
 	return (
 		<form className={classes.form}>
-			<input />
-
+			<input type={props.type} />
 			<button>+ Add</button>
 		</form>
 	);
